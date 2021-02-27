@@ -7,11 +7,15 @@
 
 import SwiftUI
 
-@main
-struct SwiftUIPdfApp: App {
+@main struct SwiftUIPdfApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
+            .environmentObject(ContentViewModel())
+            //ContentView()
+            
         }
+      
     }
 }
