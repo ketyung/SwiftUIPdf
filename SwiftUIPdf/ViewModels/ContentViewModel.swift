@@ -10,7 +10,7 @@ import PDFKit
 
 class ContentViewModel : ObservableObject {
     
-    @Published private var content  = Content(title : "", body : "")
+    @Published private var content  = Content()
 
     var title : String {
         

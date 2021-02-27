@@ -10,8 +10,8 @@ import Foundation
 
 struct Content {
     
-    var title : String
+    var title : String = ""
     
-    var body : String 
+    var body : String = ""
     
 }
